@@ -1,14 +1,12 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import Home from "../containers/Home"
+import Page404 from "../containers/Page404"
 
-const IndexPage = () => {
+export default function Home() {
   return (
     <Layout>
-      <Home />
+      <Page404 />
     </Layout>
   )
 }
-
-export default IndexPage
