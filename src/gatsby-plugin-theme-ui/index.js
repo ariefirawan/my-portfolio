@@ -30,7 +30,7 @@ export default {
       dark: {
         text: '#f5eded',
         background: '#283149',
-        primary: '#5a6174',
+        primary: '#0353a4',
         secondary: '#f73859',
         muted: '#dbedf3',
       },

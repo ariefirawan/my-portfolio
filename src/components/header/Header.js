@@ -34,7 +34,7 @@ const Header = () => {
     <header
       sx={{
         p: 3,
-        background: "white",
+        background: theme => `${theme.colors.background}`,
         boxShadow: "1px 1px 12px 4px #3e408414",
         width: "100%",
         position: "sticky",
